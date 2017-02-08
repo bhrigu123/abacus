@@ -4,7 +4,7 @@ A new octopress theme created by taking the best out of everything.
 
 Simple, good readability, less clustered and beautiful.
 
-Check the live demo here: [http://bhrigu.me](http://bhrigu.me): 
+Check the live demo here: [http://bhrigu.me](http://bhrigu.me)
 
 
 ### Quick install
@@ -13,7 +13,7 @@ Check the live demo here: [http://bhrigu.me](http://bhrigu.me):
 ```
   % cd octopress
   % git clone https://github.com/bhrigu123/abacus .themes/abacus
-  % rake 'install[abacus]'
+  % rake install['abacus']
   % rake generate
 ```
 
@@ -42,9 +42,11 @@ The banner image is present here: `source/images/banner.jpg`. To change your ban
 
 
 ### Snapshots
+#### Banner
 
 ![banner](https://github.com/bhrigu123/bhrigu123.github.io/blob/source/source/images/theme/theme1.png)
 
+#### Author
 
 ![autho](https://github.com/bhrigu123/bhrigu123.github.io/blob/source/source/images/theme/theme2.png)
 
