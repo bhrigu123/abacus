@@ -64,7 +64,7 @@ This theme is inspired from Medium and was originally a fork of [octostrap3](htt
 
 
 ## The MIT License
-> Copyright (c) 2015 Bhrigu Srivastava http://bhrigu123.github.io
+> Copyright (c) 2017 Bhrigu Srivastava http://bhrigu.me
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
