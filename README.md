@@ -44,7 +44,7 @@ If you have a different format (eg png) banner, you can directly edit the source
 If you want to include your Google Adsense header directly via config, you can add your Adsense client ID in your `_config.yml` with attribute name **google_adsense_client**. For eg.  `google_adsense_client: ca-pub-xxxx`.
 
 #### Cover image for sharing your pages / posts on social media
-When you share your page or a blog post in social media (eg Facebook), you get an image in the shared link. Now, the social media platform might not always pick up the cover pic in the share from the images present in your post. Using this theme, you can define a specific image for cover pic of the sared post.  
+When you share your page or a blog post in social media (eg Facebook), you get an image in the shared link. Now, the social media platform might not always pick up the cover pic in the share from the images present in your post. Using this theme, you can define a specific image for cover pic of the shared post.  
 To do that, in your page or post's source yml headers at the top (where there are *layout*, *title*, attributes present), add another attribute: *coverimage*, and give the relative path of your image from your source. For eg. `coverimage: /images/folder1/img.png`
 
 ### Snapshots
