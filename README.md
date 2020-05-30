@@ -37,9 +37,15 @@ After you have followed the above steps, do the following to finish setting up t
 ### More customizations
 
 #### Changing the banner 
-The banner image is present here: `source/images/banner.jpg`. To change your banner, replace this pic with another one & run `rake generate`.
+The banner image path and name is: `source/images/banner.jpg`. To change your banner, replace this pic with another one (make sure it's named *banner.jpg* only) & run `rake generate`.  
+If you have a different format (eg png) banner, you can directly edit the source banner CSS at `sass/partials/_banner.scss` and edit the URL of `background-image` attribute under `#banner-image` css.
 
+#### Google Adsense header
+If you want to include your Google Adsense header directly via config, you can add your Adsense client ID in your `_config.yml` with attribute name **google_adsense_client**. For eg.  `google_adsense_client: ca-pub-xxxx`.
 
+#### Cover image for sharing your pages / posts on social media
+When you share your page or a blog post in social media (eg Facebook), you get an image in the shared link. Now, the social media platform might not always pick up the cover pic in the share from the images present in your post. Using this theme, you can define a specific image for cover pic of the sared post.  
+To do that, in your page or post's source yml headers at the top (where there are *layout*, *title*, attributes present), add another attribute: *coverimage*, and give the relative path of your image from your source. For eg. `coverimage: /images/folder1/img.png`
 
 ### Snapshots
 #### Banner
@@ -54,7 +60,7 @@ The banner image is present here: `source/images/banner.jpg`. To change your ban
 Octopress version
 =================
 
-This theme aim to be compatible with Octopress 2.0,
+This theme aim to be compatible with Octopress 2.0, (should work with 3.0 too)  
 the `master` branch from https://github.com/bhrigu123/abacus
 (documented at http://octopress.org/).
 
